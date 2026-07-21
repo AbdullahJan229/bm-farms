@@ -1,6 +1,7 @@
 import Navbar from '@/components/Navbar';
 import Footer from '@/components/Footer';
-import { User, Target, CheckCircle2 } from 'lucide-react';
+import Image from 'next/image';
+import { Target, CheckCircle2 } from 'lucide-react';
 
 export default function AboutPage() {
   return (
@@ -69,9 +70,17 @@ export default function AboutPage() {
             <h2 className="text-3xl font-bold text-gray-900 text-center mb-12">Leadership</h2>
             
             <div className="max-w-md mx-auto bg-gray-50 border border-gray-200 p-8 rounded-2xl text-center shadow-sm">
-              <div className="w-20 h-20 bg-green-100 text-green-800 rounded-full flex items-center justify-center mx-auto mb-4">
-                <User size={40} />
+              
+              {/* Profile Image Container */}
+              <div className="relative w-24 h-24 mx-auto mb-4 overflow-hidden rounded-full border-2 border-green-700 shadow-md">
+                <Image 
+                  src="/ceo.png" 
+                  alt="Mr. Malik Azhar Mushtaq" 
+                  fill 
+                  className="object-cover" 
+                />
               </div>
+
               <h3 className="text-xl font-bold text-gray-900">Mr. Malik Azhar Mushtaq</h3>
               <p className="text-green-700 font-semibold text-xs tracking-wide uppercase mt-1">
                 CEO & Director - BM Farms & Services Pvt Ltd
