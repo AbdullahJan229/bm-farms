@@ -134,7 +134,8 @@ export default function ContactPage() {
                     onChange={handleChange}
                     required
                     placeholder="Enter your name"
-                    className="w-full px-4 py-2.5 border border-gray-300 rounded-lg focus:ring-2 focus:ring-green-600 focus:border-transparent outline-none text-sm transition"
+                    // ADDED: text-gray-900 class here
+                    className="w-full px-4 py-2.5 border border-gray-300 rounded-lg focus:ring-2 focus:ring-green-600 focus:border-transparent outline-none text-sm transition text-gray-900"
                   />
                 </div>
 
@@ -147,7 +148,8 @@ export default function ContactPage() {
                     onChange={handleChange}
                     required
                     placeholder="Enter your email"
-                    className="w-full px-4 py-2.5 border border-gray-300 rounded-lg focus:ring-2 focus:ring-green-600 focus:border-transparent outline-none text-sm transition"
+                    // ADDED: text-gray-900 class here
+                    className="w-full px-4 py-2.5 border border-gray-300 rounded-lg focus:ring-2 focus:ring-green-600 focus:border-transparent outline-none text-sm transition text-gray-900"
                   />
                 </div>
 
@@ -159,7 +161,8 @@ export default function ContactPage() {
                     value={formData.phone}
                     onChange={handleChange}
                     placeholder="+92 300 0000000"
-                    className="w-full px-4 py-2.5 border border-gray-300 rounded-lg focus:ring-2 focus:ring-green-600 focus:border-transparent outline-none text-sm transition"
+                    // ADDED: text-gray-900 class here
+                    className="w-full px-4 py-2.5 border border-gray-300 rounded-lg focus:ring-2 focus:ring-green-600 focus:border-transparent outline-none text-sm transition text-gray-900"
                   />
                 </div>
 
@@ -172,7 +175,8 @@ export default function ContactPage() {
                     onChange={handleChange}
                     required
                     placeholder="Inquiry Subject"
-                    className="w-full px-4 py-2.5 border border-gray-300 rounded-lg focus:ring-2 focus:ring-green-600 focus:border-transparent outline-none text-sm transition"
+                    // ADDED: text-gray-900 class here
+                    className="w-full px-4 py-2.5 border border-gray-300 rounded-lg focus:ring-2 focus:ring-green-600 focus:border-transparent outline-none text-sm transition text-gray-900"
                   />
                 </div>
 
@@ -185,7 +189,8 @@ export default function ContactPage() {
                     onChange={handleChange}
                     required
                     placeholder="Type your message here..."
-                    className="w-full px-4 py-2.5 border border-gray-300 rounded-lg focus:ring-2 focus:ring-green-600 focus:border-transparent outline-none text-sm transition resize-none"
+                    // ADDED: text-gray-900 class here
+                    className="w-full px-4 py-2.5 border border-gray-300 rounded-lg focus:ring-2 focus:ring-green-600 focus:border-transparent outline-none text-sm transition resize-none text-gray-900"
                   ></textarea>
                 </div>
 
